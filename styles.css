@@ -1,3 +1,39 @@
+.box0 {
+    height: 50px;
+    width: 800px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: darkgray;
+}
+.alternateBox0 {
+    height: 80px;
+    width: 800px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: gray;
+}
+.alternateBox1 {
+    height: 80px;
+    width: 800px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: gray;
+}
+.buttonBox {
+    height: 40px;
+    width: 150px;
+    padding: 2px;
+    padding-left:30px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
 .box1 {
     height: 100px;
     width: 200px;
@@ -12,21 +48,56 @@
     padding: 20px;
     margin: 10px;
     border: 3px solid black;
-    background-color: white;
+    background-color: lightgray;
 }
 .box3 {
-    height: 400px;
-    width: 800px;
+    height: 300px;
+    width: 525px;
     padding: 20px;
     margin: 10px;
     border: 3px solid black;
-    background-color: white;
+    background-color: lightgray;
+}
+.box7 {
+    height: 200px;
+    width: 525px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightgray;
 }
 .box4 {
-    height: 160px;
+    height: 300px;
     width: 200px;
     padding: 20px;
     margin: 10px;
     border: 3px solid black;
-    background-color: white;
+    background-color: lightgray;
+}
+.box5 {
+    height: 280px;
+    width: 800px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+.box6 {
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.grid-container2 {
+    padding-left: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
